@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Drag and Drop</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="container1">
+          <div class="container-left">
+            <h2>Draggable Items</h2>
+            <img src="item1.png" class="draggable-item" draggable="true" />
+            <img src="item2.png" class="draggable-item" draggable="true" />
+            <img src="item3.png" class="draggable-item" draggable="true" />
+          </div>
+        </div>
+        <div class="container2">
+          <div class="container-right">
+            <h2>Droppable Area</h2>
+            <div id="dropArea" class="droppable-area">Drop here!</div>
+          </div>
+        </div>
+      </div>
+      <div class="btn_section">
+        <button id="resetBtn">Reset</button>
+        <div id="message"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
